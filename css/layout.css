@@ -171,6 +171,15 @@ body {
       height: auto;
     }
 
+/* Page Color Background */
+body {
+  background-color: "#CCCCFF";
+}
+
+div {background-color: "#CCCCFF";
+  opacity:0.6;
+} 
+
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
