@@ -1,0 +1,142 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/GIS_Boolean_Raster.jpg" />
+     <title>Danaee's Portfolio</title>
+    <meta name="description" content="A GIS portfolio made by Danaée Félix.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <!-- 
+          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+          (this should be the same across all pages)
+         -->
+        <span class="nav-title">My GIS Journey</span>
+        <!-- 
+          TODO - Change the email after 'mailto:' to your email address for contact 
+        
+          (this should be the same across all pages)
+        -->
+        <a class="button" href="mailto:danaeefel@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">Boolean Rasters</div>
+        <div class="body-text">Let's analyze the vegetation and road density of the NFS boundary!</div>
+        <image class="project-header-image" src="../assets/images/GIS_Boolean_Raster.jpg">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">This is a vegetation boolean raster performed on an NFS boundary. Producing a boolean raster helps us focus on a specific aspect of a site that we wish to analyze, in this case we focus on the vegetation density.</div>
+          <div class="body-text">C/B raster cells have the value of 1, thus being true. Meanwhile, a 0/A raster cell is either untrue or there was no data found regarding vegetation. Furthermore, this project concludes there to be low vegetation density in the NFS boundary.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Road Density in the NFS Boundary</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+              Full Width Image:
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+              Half Width Image: 
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container full-width">
+              <img src="../assets/images/Boolean_road.png" class="gallery-image">
+              <span class="image-caption">Additionally, I produced a road buffer Boolean raster of the NFS Boundary for further analysis of the amount space being utilized for transportation.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="tel:207-460-1500">
+        <image src="../assets/icons/Phone_call.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="http://www.linkedin.com/in/danaéefélix">
+        <image src="../assets/icons/LinkedIn_icon.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:danaeefel@gmail.com">
+        <image src="../assets/icons/Gmail_icon.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
