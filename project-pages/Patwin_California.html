@@ -62,9 +62,9 @@
             - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
-        <div class="main-title">Boolean Rasters</div>
-        <div class="body-text">Let's analyze the vegetation and road density of the NFS boundary!</div>
-        <image class="project-header-image" src="../assets/images/GIS_Boolean_Raster.jpg">
+        <div class="main-title">Patwin Land</div>
+        <div class="body-text">Let's take a deep dive on UC Davis Campus on Patwin Land</div>
+        <image class="project-header-image" src="../assets/images/CCFS_Patwin_Map.png">
       </div>
 
       <!-- PROJECT DETAILS -->
@@ -76,40 +76,11 @@
       <div id="project-details">
         <div class="subheader-text">Project Details / Background</div>
         <div class="project-details-content">
-          <div class="body-text">This is a vegetation boolean raster performed on an NFS boundary. Producing a boolean raster helps us focus on a specific aspect of a site that we wish to analyze, in this case we focus on the vegetation density.</div>
-          <div class="body-text">C/B raster cells have the value of 1, thus being true. Meanwhile, a 0/A raster cell is either untrue or there was no data found regarding vegetation. Furthermore, this project concludes there to be low vegetation density in the NFS boundary.</div>
+          <div class="body-text">This is a current map of all the counties in the state of California. The map is overlapped with where the Patwin tribe territory used to be located. The purpose of this map's creation was to provide additional substancer to the land acknowledgement my team had created for our community partner, the Center for Child and Family Studies (CCFS). The requested that my team redesign the site while taking decolonization into account, thus it was important to implement this map in our land acknowledgement for the site.</div>
+          <div class="body-text">This map was created via QGIS. The red point that locates the Center for Child and Family Studies was from the coordinates of a picture of the site taken during one of my team's site visits. Such coordinates were placed into Google Earth Pro which was then pinned. The pin for the site was then exported as an svg file to QGIS. I was able to change the pin to a red dot via Symbology. Additionally, I played around with the color contrast of the Patwin territory and the current California counties through Symbology; both feature classes were created with categorized symbols. Finally, an inset map of the UC Davis Campus map was applied to provide the audience a zoomed in view of where the CCFS is located on the college campus.</div>
         </div>
       </div>
-
-      <!-- IMAGE GALLERY -->
-      <div id="project-gallery">
-        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-        <div class="subheader-text">Road Density in the NFS Boundary</div>
-        <div class="project-gallery-content">
-            <!-- 
-              TODO
-              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
-              Full Width Image:
-                <div class="gallery-image-container">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-              Half Width Image: 
-                <div class="gallery-image-container half-width">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
-                  - IMAGE_NAME: the name of the image file in assets/images
-                  - IMAGE_CAPTION: to the caption of the image
-            -->
-            <div class="gallery-image-container full-width">
-              <img src="../assets/images/Boolean_road.png" class="gallery-image">
-              <span class="image-caption">Additionally, I produced a road buffer Boolean raster of the NFS Boundary for further analysis of the amount space being utilized for transportation.</span>
-            </div>
-        </div>
-      </div>
-    </div>
+       
 
     <!-- FOOTER -->
     <div id="footer">
